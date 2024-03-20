@@ -20,7 +20,7 @@ func main() {
 	http.HandleFunc("/", getRoot)
 	http.HandleFunc("/hello", getHello)
 
-	http.ListenAndServe(":3000", nil)
+	http.ListenAndServe(":10000", nil)
 
 
 
